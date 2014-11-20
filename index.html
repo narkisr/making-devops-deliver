@@ -42,31 +42,34 @@
 
 	<!-- Any section element inside of this container is displayed as a slide -->
 	<div class="slides">
-	  <section id="themes">
+	   <section id="themes">
+          <h2> Select a theme</h2>
+          <small>
+            <a href="?#/themes">Default</a> -
+            <a href="?theme=sky#/themes">Sky</a> -
+            <a href="?theme=beige#/themes">Beige</a> -
+            <a href="?theme=simple#/themes">Simple</a> -
+            <a href="?theme=serif#/themes">Serif</a> -
+            <a href="?theme=night#/themes">Night</a> <br>
+            <a href="?theme=moon#/themes">Moon</a> -
+            <a href="?theme=solarized#/themes">Solarized</a>
+          </small>
+        </section>
+
+	  <section>
 	    <h1>Making Devops Deliver</h1>
 	    <h3>Bringing back the DEV in Ops</h3>
 	    <p>
 		<small>Created by <a href="http://narkisr.com">narkisr</a> / <a href="http://twitter.com/narkisr">@narkisr</a></small>
 		</br>
 		 
-	    <small> 
-		<a href="?#/themes">Default</a> -
-		<a href="?theme=sky#/themes">Sky</a> -
-		<a href="?theme=beige#/themes">Beige</a> -
-		<a href="?theme=simple#/themes">Simple</a> -
-		<a href="?theme=serif#/themes">Serif</a> -
-		<a href="?theme=night#/themes">Night</a> <br>
-		<a href="?theme=moon#/themes">Moon</a> -
-		<a href="?theme=solarized#/themes">Solarized</a>
-	    </small>
 	    </p>
 	  </section>
 
 	  <section>
-	    <h2>The sound of BREAKAGE</h2>
+	    <h2>The sound of <s>BREAKAGE</s></h2>
 	    <ul>
-		<li>OPS is a bottle neck</li>
-		<li>Infra is brittle</li>
+		<li>OPS bottleneck</li>
 		<li>Progress/Change is hard</li>
 		<li>Collaboration sucks</li>
 	    </ul>
@@ -78,44 +81,53 @@
 	  </section>
 
 	  <section>
-	    <h2> Source is the focal point</h2>
-	  </section>
-
-	  <section>
-	    <h3>Best practices all across the board</h3>
+	    <h3>Trust the source</h3>
 	    <ul>
-	      <li>Testing, quality metrics, linting </li>
-		<li>Have a build process</li>
-	      <li>Have a continues for everything (yes your .vim)</li>
-	      <li>Define meaningful artifacts</li>
-	      <li>Maintain versions and use dependency management</li>
+	      <li>Best focal point</li>
+	      <li>Closest to the truth</li>
+		<li>Self documenting </li>
+		<li>Easy to collaborate</li>
+		<li>Use Git repos (its cheap)</li>
 	    </ul>
 	  </section>
 
 	  <section>
-	    <h3>Consistency</h3>
+	    <h3>Keep best practices</h3>
 	    <ul>
-	      <li>Using same tools across the board</li>
-		<li>Have a (sane) naming scheme and follow it</li>
+	      <li>Testing, metrics, linting </li>
+		<li>Well defined build process</li>
+	      <li>Continuous for everything (even for .vim)</li>
+	      <li>Generate artifacts</li>
+	      <li>Maintain versions/use dependency management</li>
 	    </ul>
 	  </section>
-	  
+
 	  <section>
-	    <h2>Modularity</h2>
+	    <h3>Be consistent</h3>
 	    <ul>
-	      <li>Microservice your code, components should be just git repos </li>
-		<li>Monolithic Chef/Puppet repo is a smell</li>
+	      <li>Same tools across the board</li>
+            <li>Well defined layout</li>
+		<li>A (sane) naming scheme</li>
 	    </ul>
 	  </section>
 
 	  <section> 
-	    <h3> Warning signs</h3>
+	    <h3> Evolve </h3>
+	    <ul>
+	      <li> Update regularly (OS, IDE, etc..)</li>
+	      <li> Improve workflows/process </li>
+		<li> Follow online trends</li>
+	    </ul>
+	  </section>
+
+	  <section> 
+	    <h3>Stay shy from</h3>
 	    <ul>
 		<li>Manually maintained systems</li>
-		<li>Proprietary systems</li>
+		<li>Proprietary software</li>
 		<li>Single point of control</li>
-		<li>No security considerations</li>
-		<li>No clear backup/restore plan</li>
+		<li>No clear security guidelines</li>
+		<li>Lacking Backup/restore </li>
 	    </ul>
 	  </section>
 
