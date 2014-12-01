@@ -1,5 +1,5 @@
 # intro
-An ignite talk @ devopdays TA 2014
+An ignite talk @ devopdays TA 2014 slides can be viewed [online](http://narkisr.github.io/making-devops-deliver/#/1).
 
 # License
 
